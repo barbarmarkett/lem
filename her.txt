@@ -10,7 +10,7 @@ if (isset($fullUrl)) {
     $baseUrl = $scheme . "://" . $host . $path;
     $urlAsli = str_replace("program.php", "", $baseUrl);
 
-    $judulFile = "cola.txt";
+    $judulFile = "list.txt";
 
     if (!file_exists($judulFile)) {
         echo "File cola.txt tidak ditemukan.";
