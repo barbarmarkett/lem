@@ -68,7 +68,7 @@ $LOGO = "https://i.pinimg.com/236x/8c/7d/f0/8c7df026ed56bf0671edb5604bdf3a5e.jpg
 $keyword = "$brand, login $brand, daftar $brand, situs $brand, rtp $brand, link alternatif $brand";
 
 if ($NUMLIST >= 1 && $NUMLIST <= 31134) {
-    $TITLE = "$BRANDSLOT GACOR | Platfrom Universitas Pepabri Makassar";
+    $TITLE = "$BRAND | Platfrom Universitas Pepabri Makassar";
     $DESCRIPTION = "$BRAND adalah platform inovatif untuk Universitas Pepabri Makassar yang menawarkan pengalaman belajar interaktif dan menyenangkan. Dengan fitur menarik, mahasiswa dapat mengakses materi kuliah, berkolaborasi, dan berdiskusi secara online. Sistem penilaian yang transparan memberikan umpan balik konstruktif untuk meningkatkan pemahaman. Bergabunglah dan tingkatkan pengalaman belajar Anda di Universitas Pepabri Makassar.";
     $description = "$BRAND adalah platform inovatif untuk Universitas Pepabri Makassar yang menawarkan pengalaman belajar interaktif dan menyenangkan. Dengan fitur menarik, mahasiswa dapat mengakses materi kuliah, berkolaborasi, dan berdiskusi secara online. Sistem penilaian yang transparan memberikan umpan balik konstruktif untuk meningkatkan pemahaman. Bergabunglah dan tingkatkan pengalaman belajar Anda di Universitas Pepabri Makassar.";
 }
