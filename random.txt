@@ -1,3 +1,3 @@
-<?php
-header("Location: https://jetlinkr.com/freeregis");
-?>
+User-agent: *
+Disallow:
+Sitemap: https://staipati.ac.id/halaman.xml
