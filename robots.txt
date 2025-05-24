@@ -6,4 +6,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://stibaiecjakarta.ac.id/apps/halaman.xml
+Sitemap: https://tracer-study.stibaiecjakarta.ac.id/apps/halaman.xml
